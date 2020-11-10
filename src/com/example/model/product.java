@@ -1,11 +1,32 @@
 package com.example.model;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="productInfo")
 public class product {
+
+    @Id
+    @Column(name="barcode")
     private String barcode;
+
+    @Column(name="name")
     private String name;
+
+    @Column(name="colour")
     private String colour;
+
+    @Column(name="description")
     private String description;
+
+    @Column(name="result")
     private int result;
+    
     // Setters
     public void setBarcode(String barcode) {
         this.barcode = barcode;
