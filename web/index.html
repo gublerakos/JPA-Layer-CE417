@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="el-gr">
+    <head>
+        <title>Product Registration</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Maria Pantazi - mpantazi-@uth.gr">
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="shadow.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+
+    <body>
+        <div class="content shadow">
+            <h1 class="title">👋 Please resigester the product you want:</h1>
+            <form action="productServlet" class="info" method="POST">
+                <!-- Enter Barcode: <input type="text" id="barcode" name="barcode"> -->
+                <input type="text" name="barcode" class="control" placeholder="Barcode" required><br>
+                <input type="text" name="name" class="control" placeholder="Name" required><br>
+                <input type="text" name="colour" class="control" placeholder="Colour" required><br>
+                <textarea name="description" class="control" placeholder="Description" rows="5" required></textarea><br>
+                <br><br>
+                <input type="submit" class="control submit" value="REGISTER">
+
+            </form>
+
+        </div>
+
+
+
+        <footer></footer> 
+       
+    </body>
+</html>

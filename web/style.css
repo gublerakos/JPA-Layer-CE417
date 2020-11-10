@@ -1,0 +1,77 @@
+body {
+    background-color: #BFD4FD;
+}
+
+html, body, h1, h2, h3, h4, h5, h6 {
+    /* font-family: "Roboto", sans-serif */
+    font-family: system-ui;
+}
+
+h1, h2, h3, h4, p {
+    color: #454040;
+}
+
+.content {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    width: 1200px;
+    height: fit-content;
+    margin-bottom: 50px;
+}
+
+.title{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.info {
+    text-align: center;
+    padding: 50px;
+}
+
+.control {
+    width: 600px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid gray;
+    color: black;
+    font-size: 25px;
+    padding-top: 5px;
+}
+
+input {
+    height: 55px;
+}
+
+form .submit {
+    border-color: transparent;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    height: 60px;
+}
+form .submit:hover {
+    cursor: pointer;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.resultProd {
+    font-size: 25px;
+    padding: 5px;
+} 
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 35px;
+    color: #5DADEC;
+    margin-left: 30%;
+}
