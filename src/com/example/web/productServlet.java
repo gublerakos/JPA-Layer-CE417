@@ -42,7 +42,11 @@ public class productServlet extends HttpServlet {
         pr.setDescription(description);
         pr.setResult(0);
 
-        productDao.saveUser(newUser);        
+        if(prDao.getProduct(pr) == null){
+            pr.setResult(1);
+        }
+
+        prDao.saveProduct(pr);        
         
         request.setAttribute("styles", pr);
 		RequestDispatcher view = request.getRequestDispatcher("result.jsp");

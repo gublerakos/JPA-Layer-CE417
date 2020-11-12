@@ -91,7 +91,7 @@ public class productDao {
 			}
 			e.printStackTrace();
 		}
-		return product;
+		return pr;
     }
     
     // Get all products
